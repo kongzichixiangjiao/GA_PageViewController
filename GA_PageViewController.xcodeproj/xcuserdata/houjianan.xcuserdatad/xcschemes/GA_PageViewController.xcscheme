@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC4A7AD91D055CC500DBF227"
+               BuildableName = "GA_PageViewController.app"
+               BlueprintName = "GA_PageViewController"
+               ReferencedContainer = "container:GA_PageViewController.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC4A7AED1D055CC500DBF227"
+               BuildableName = "GA_PageViewControllerTests.xctest"
+               BlueprintName = "GA_PageViewControllerTests"
+               ReferencedContainer = "container:GA_PageViewController.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DC4A7AF81D055CC500DBF227"
+               BuildableName = "GA_PageViewControllerUITests.xctest"
+               BlueprintName = "GA_PageViewControllerUITests"
+               ReferencedContainer = "container:GA_PageViewController.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC4A7AD91D055CC500DBF227"
+            BuildableName = "GA_PageViewController.app"
+            BlueprintName = "GA_PageViewController"
+            ReferencedContainer = "container:GA_PageViewController.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC4A7AD91D055CC500DBF227"
+            BuildableName = "GA_PageViewController.app"
+            BlueprintName = "GA_PageViewController"
+            ReferencedContainer = "container:GA_PageViewController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "DC4A7AD91D055CC500DBF227"
+            BuildableName = "GA_PageViewController.app"
+            BlueprintName = "GA_PageViewController"
+            ReferencedContainer = "container:GA_PageViewController.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

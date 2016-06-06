@@ -14,6 +14,8 @@
 		DC4A7AE81D055CC500DBF227 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4A7AE61D055CC500DBF227 /* LaunchScreen.storyboard */; };
 		DC4A7AF31D055CC500DBF227 /* GA_PageViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A7AF21D055CC500DBF227 /* GA_PageViewControllerTests.swift */; };
 		DC4A7AFE1D055CC500DBF227 /* GA_PageViewControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4A7AFD1D055CC500DBF227 /* GA_PageViewControllerUITests.swift */; };
+		DC540BAA1D05752F00599CA6 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC540BA91D05752F00599CA6 /* ContentViewController.swift */; };
+		DC540BAC1D05785D00599CA6 /* SBSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC540BAB1D05785D00599CA6 /* SBSessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DC4A7AF91D055CC500DBF227 /* GA_PageViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GA_PageViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC4A7AFD1D055CC500DBF227 /* GA_PageViewControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GA_PageViewControllerUITests.swift; sourceTree = "<group>"; };
 		DC4A7AFF1D055CC500DBF227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC540BA91D05752F00599CA6 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		DC540BAB1D05785D00599CA6 /* SBSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				DC4A7ADD1D055CC500DBF227 /* AppDelegate.swift */,
 				DC4A7ADF1D055CC500DBF227 /* ViewController.swift */,
+				DC540BA91D05752F00599CA6 /* ContentViewController.swift */,
+				DC540BAB1D05785D00599CA6 /* SBSessionManager.swift */,
 				DC4A7AE11D055CC500DBF227 /* Main.storyboard */,
 				DC4A7AE41D055CC500DBF227 /* Assets.xcassets */,
 				DC4A7AE61D055CC500DBF227 /* LaunchScreen.storyboard */,
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC540BAA1D05752F00599CA6 /* ContentViewController.swift in Sources */,
+				DC540BAC1D05785D00599CA6 /* SBSessionManager.swift in Sources */,
 				DC4A7AE01D055CC500DBF227 /* ViewController.swift in Sources */,
 				DC4A7ADE1D055CC500DBF227 /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +490,7 @@
 				DC4A7B041D055CC500DBF227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4A7B051D055CC500DBF227 /* Build configuration list for PBXNativeTarget "GA_PageViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +499,7 @@
 				DC4A7B071D055CC500DBF227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC4A7B081D055CC500DBF227 /* Build configuration list for PBXNativeTarget "GA_PageViewControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +508,7 @@
 				DC4A7B0A1D055CC500DBF227 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
